@@ -1,0 +1,21 @@
+2024-12-09 21:34:59,708 - ERROR - Error inesperado: La edad debe ser un número entero válido y mayor o igual a 18.
+2024-12-09 21:45:26,382 - ERROR - Error inesperado: La edad debe ser un número entero válido y mayor o igual a 18.
+2024-12-09 22:38:25,940 - ERROR - Error inesperado: La edad debe ser un número entero válido y mayor o igual a 18.
+2024-12-13 12:02:55,884 - ERROR - Validación fallida: invalid literal for int() with base 10: 'Streaming'
+2024-12-13 12:04:28,240 - ERROR - Validación fallida: invalid literal for int() with base 10: 'Streaming'
+2024-12-13 12:05:24,960 - ERROR - Validación fallida: invalid literal for int() with base 10: 'Streaming'
+2024-12-13 12:05:25,153 - ERROR - Validación fallida: invalid literal for int() with base 10: 'Streaming'
+2024-12-13 12:58:10,928 - ERROR - Validación de edad fallida: invalid literal for int() with base 10: 'Cesar'
+2024-12-13 13:44:21,866 - ERROR - Validación de edad fallida: invalid literal for int() with base 10: 'Roten'
+2024-12-13 13:44:28,227 - ERROR - Validación de edad fallida: invalid literal for int() with base 10: 'Roten'
+2024-12-24 11:48:34,636 - ERROR - Validación de edad fallida: valor no numérico (Harpert)
+2024-12-24 12:15:53,760 - ERROR - Validación de edad fallida: valor no numérico o menor a 18 (Frezzer)
+2024-12-24 13:39:19,007 - ERROR - Error inesperado: 1062 (23000): Duplicate entry '' for key 'PRIMARY'
+2024-12-24 13:40:18,053 - ERROR - Error inesperado: 1062 (23000): Duplicate entry '' for key 'PRIMARY'
+2024-12-24 13:40:18,249 - ERROR - Error inesperado: 1062 (23000): Duplicate entry '' for key 'PRIMARY'
+2024-12-24 21:17:17,378 - ERROR - Validación de edad fallida: valor no numérico o menor a 18 (Bances)
+2024-12-26 12:31:34,624 - ERROR - Error inesperado: 1062 (23000): Duplicate entry '' for key 'PRIMARY'
+2024-12-26 21:56:31,043 - ERROR - Error inesperado: not enough values to unpack (expected 5, got 1)
+2024-12-27 18:27:32,510 - ERROR - Error inesperado: 1062 (23000): Duplicate entry '' for key 'PRIMARY'
+2024-12-27 18:36:44,987 - ERROR - Error al guardar el registro: 1062 (23000): Duplicate entry '' for key 'PRIMARY'
+2024-12-27 18:37:25,403 - ERROR - Error al guardar el registro: 1062 (23000): Duplicate entry '' for key 'PRIMARY'

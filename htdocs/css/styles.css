@@ -1,0 +1,180 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #e0e0e0;
+    background-color: #0d1117; /* Fondo oscuro */
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    max-width: 90%;
+    width: 400px;
+    padding: 20px;
+    background: #161b22; /* Fondo del contenedor oscuro */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #c9d1d9; /* Texto ligeramente claro */
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    color: #8b949e; /* Texto en tono gris */
+}
+
+/* Botones */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    color: #ffffff;
+    background-color: #238636; /* Verde oscuro para botones */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2ea043; /* Verde más claro al pasar el cursor */
+}
+
+/* Mensaje de resultado */
+#resultMessage {
+    font-size: 1rem;
+    color: #f85149; /* Mensaje de error o acceso denegado en rojo */
+}
+
+/* Estilos específicos para registro.html */
+.registro-container {
+    margin-top: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    flex: 0 0 100px;
+    text-align: right;
+}
+
+.form-group input {
+    flex: 1;
+}
+
+.registro-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #30363d;
+    border-radius: 5px;
+    background-color: #0d1117;
+    color: #e0e0e0;
+}
+
+/* Contenedor de la cámara */
+.camera-container {
+    position: relative;
+    width: 300px;
+    height: 300px; /* Cuadrado */
+    margin: 20px auto;
+    border: 2px solid #30363d;
+    overflow: hidden;
+    border-radius: 10px; /* Opcional, bordes redondeados */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Video de la cámara */
+#video {
+    width: 100%;
+    height: auto;
+    max-height: 100%; /* Asegura que el video no sobresalga */
+    object-fit: cover; /* Ajusta el contenido del video */
+}
+
+/* Marco de guía para el rostro */
+.face-frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px; /* Tamaño del marco */
+    height: 200px; /* Cuadrado */
+    transform: translate(-50%, -50%);
+    border: 2px dashed #4CAF50;
+    pointer-events: none; /* No interferir con clics */
+}
+
+/* Líneas de cuadrícula */
+.grid-line {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.grid-line.horizontal {
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+}
+
+.grid-line.vertical {
+    height: 100%;
+    width: 1px;
+    top: 0;
+    left: 50%;
+}
+
+/* Adaptabilidad para pantallas pequeñas */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .camera-container {
+        width: 90%;
+        height: auto;
+    }
+
+    .face-frame {
+        width: 80%;
+        height: 80%;
+    }
+}
+

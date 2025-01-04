@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/register.js" defer></script>
+</head>
+<body>
+    <div class="container registro-container">
+        <h1>Registro de Usuario</h1>
+        <!-- Formulario de registro -->
+        <form id="register-form" method="POST">
+            <!-- Campo Nombre -->
+            <input type="text" id="nombre" name="nombre" class="registro-input" placeholder="Ingrese su nombre" required>
+
+            <!-- Campo Sexo -->
+            <select id="sexo" name="sexo" class="registro-input" required>
+                <option value="">Seleccione su sexo</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+            </select>
+
+            <!-- Campo Edad -->
+            <input type="number" id="edad" name="edad" class="registro-input" placeholder="Ingrese su edad" min="18" required>
+            <small id="edad-error" class="error-message" style="color: red; display: none;">Debe ser mayor o igual a 18 años.</small>
+
+            <!-- Campo DNI -->
+            <input type="text" id="dni" name="dni" class="registro-input" placeholder="Ingrese su DNI" required>
+
+            <!-- Video para la cámara -->
+            <div class="video-container">
+                <video id="video" autoplay muted></video>
+            </div>
+            <input type="hidden" name="foto" id="foto">
+
+            <!-- Botones para cámara -->
+            <button type="button" class="btn" id="start-camera">Iniciar Cámara</button>
+            <button type="button" class="btn" id="capture-photo" style="display: none;">Capturar Foto</button>
+
+            <!-- Mensaje de resultado -->
+            <p id="resultMessage"></p>
+
+            <!-- Botón para enviar el formulario -->
+            <button type="submit" class="btn">Registrar</button>
+        </form>
+    </div>
+</body>
+</html>
+

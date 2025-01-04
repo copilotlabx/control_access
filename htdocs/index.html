@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificación de Identidad</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Verificación de Identidad</h1>
+        <p>Por favor, colóquese en el centro del marco y asegúrese de que su rostro esté claramente visible.</p>
+        
+        <div class="camera-container">
+            <video id="video" autoplay style="display: none;"></video>
+            <div class="face-frame"></div> <!-- Marco de guía -->
+        </div>
+
+        <button id="capture-button" class="btn">Iniciar Cámara</button>
+        <button id="reset-button" class="btn">Reiniciar</button>
+        <div id="resultMessage" class="message"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
