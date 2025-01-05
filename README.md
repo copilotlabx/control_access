@@ -13,6 +13,13 @@ Este sistena esta desarollado con HTML,JavaScript y Css en lo que se refiere ala
 
 ![WhatsApp Image 2025-01-04 at 4 01 11 PM](https://github.com/user-attachments/assets/73881b33-c619-4afa-be57-a79c4dc9ee9e)
 
+## Tech Stack
+
+**Frontend:** HTML, JavaScript,CSS
+
+**Backend** Python, PHP
+
+
 ## Authors
 
 Eduardo Esteves Llanos: https://github.com/copilotlabx/control_access
